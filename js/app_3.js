@@ -9,7 +9,7 @@ L.mapbox.accessToken = token;
 var map = L.mapbox.map('map', mapId);
 
 //Set the view of the map to the whole US
-map.setView([39, -96], 4);
+map.setView([38.84291652482239, -105.04165649414062], 7);
 
 ///////////////////////////////////////////////////////////////////////////
 // This is the area we're going to use to add data to our map
