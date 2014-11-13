@@ -54,7 +54,7 @@ var clickHandler = function(e){
   $('#info').fadeIn(400,function(){
     var info = '';
 
-    info = '<div>You clicked on the layer with the id of DONUTS!!!' + feature.properties.id + '</div>';
+    info = '<div>You clicked on the layer with the id of DONUTS' + feature.properties.id + '</div>';
 
     $('#info').append(info);
   });
