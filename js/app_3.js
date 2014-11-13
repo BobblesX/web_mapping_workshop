@@ -36,6 +36,6 @@ featureLayer.on('ready', function() {
 
 featureLayer.on('ready', function(){
   this.eachLayer(function(layer){
-    layer.bindPopup('Hi, my ID value is ' + layer.feature.properties.id);
+    layer.bindPopup('Top of the World ' + layer.feature.properties.id);
   });
 });
